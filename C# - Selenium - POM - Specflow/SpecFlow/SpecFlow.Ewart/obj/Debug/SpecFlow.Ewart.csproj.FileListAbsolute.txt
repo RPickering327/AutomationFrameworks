@@ -1,0 +1,16 @@
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\SpecFlow.Ewart.dll.config
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\SpecFlow.Ewart.dll
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\SpecFlow.Ewart.pdb
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\nunit.framework.dll
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\System.ValueTuple.dll
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\TechTalk.SpecFlow.dll
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\WebDriver.dll
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\nunit.framework.xml
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\bin\Debug\WebDriver.xml
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\obj\Debug\SpecFlow.Ewart.csproj.CoreCompileInputs.cache
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\obj\Debug\SpecFlow.Ewart.csproj.CopyComplete
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\obj\Debug\SpecFlow.Ewart.dll
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\obj\Debug\SpecFlow.Ewart.pdb
+D:\Desktop\Automation frameworks\AutomationFrameworks\C# - Selenium - POM - Specflow\SpecFlow\SpecFlow.Ewart\obj\Debug\SpecFlow.Ewart.csprojAssemblyReference.cache
