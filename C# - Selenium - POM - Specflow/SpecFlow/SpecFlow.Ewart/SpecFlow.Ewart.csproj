@@ -60,9 +60,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\DriverSetup.cs" />
+    <Compile Include="Pages\Login\Login.cs" />
     <Compile Include="Pages\TimeTable\TimeTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\LoginFeatureSteps.cs" />
     <Compile Include="Steps\TimeTableTestsSteps.cs" />
+    <Compile Include="Tests\LoginFeature.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginFeature.feature</DependentUpon>
+    </Compile>
     <Compile Include="Tests\TimeTable_Feature.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -72,6 +79,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Tests\LoginFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>LoginFeature.feature.cs</LastGenOutput>
+    </None>
     <None Include="Tests\TimeTable_Feature.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>TimeTable_Feature.feature.cs</LastGenOutput>

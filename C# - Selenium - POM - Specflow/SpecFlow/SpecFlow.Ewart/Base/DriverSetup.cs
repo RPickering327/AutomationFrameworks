@@ -17,10 +17,20 @@ namespace SpecFlow.Ewart.Base
         }
 
 
+
+        public void LoadHomePage()
+        {
+            driver.Navigate().GoToUrl("https://localhost:44379/");
+
+        }
+
+
+
+
         public void Dispose()
         {
 
-            driver.Close();
+            //driver.Close();
         }
 
 
