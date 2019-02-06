@@ -30,7 +30,7 @@ namespace SpecFlow.Ewart.Base
         public void Dispose()
         {
 
-            //driver.Close();
+            driver.Close();
         }
 
 

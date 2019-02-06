@@ -99,6 +99,60 @@ this.ScenarioInitialize(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Confirm the login displays the correct error message for invalid login")]
+        [NUnit.Framework.CategoryAttribute("regression")]
+        [NUnit.Framework.TestCaseAttribute("invalidusername@gmail.com", "11111", "Invalid login attempt.", null)]
+        [NUnit.Framework.TestCaseAttribute("nopassword@gmail.com", "", "The Password field is required.", null)]
+        [NUnit.Framework.TestCaseAttribute("", "noemail", "The Email field is required.", null)]
+        public virtual void ConfirmTheLoginDisplaysTheCorrectErrorMessageForInvalidLogin(string username, string password, string errormessage, string[] exampleTags)
+        {
+            string[] @__tags = new string[] {
+                    "regression"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Confirm the login displays the correct error message for invalid login", null, @__tags);
+#line 18
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 19
+ testRunner.Given("user is at the homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 20
+ testRunner.And("the user navigates to the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 21
+ testRunner.When(string.Format("the user enters {0} and {1}", username, password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 22
+ testRunner.And("clicks on the login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 23
+ testRunner.Then(string.Format("the validation message should be displayed {0}", errormessage), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Confirm the forget password link works")]
+        [NUnit.Framework.CategoryAttribute("regression")]
+        public virtual void ConfirmTheForgetPasswordLinkWorks()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Confirm the forget password link works", null, new string[] {
+                        "regression"});
+#line 34
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 35
+ testRunner.Given("user is at the homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 36
+ testRunner.And("the user navigates to the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 37
+ testRunner.When("the user clicks on forgot password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 38
+ testRunner.Then("the forgot password page is displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore

@@ -35,5 +35,25 @@ namespace SpecFlow.Ewart.Steps
         {
             VerifyUserIsLoggedIn();
         }
+
+        [Then(@"the validation message should be displayed (.*)")]
+        public void ThenTheValidationMessageShouldBeDisplayed(string errormessage)
+        {
+            ValidationMessageDisplayed(errormessage);
+        }
+
+
+        [When(@"the user clicks on forgot password")]
+        public void WhenTheUserClicksOnForgotPassword()
+        {
+            ClickForgotPasswordLink();
+        }
+
+        [Then(@"the forgot password page is displayed")]
+        public void ThenTheForgotPasswordPageIsDisplayed()
+        {
+            VerifyOnForgotPasswordPage();
+        }
+
     }
 }
