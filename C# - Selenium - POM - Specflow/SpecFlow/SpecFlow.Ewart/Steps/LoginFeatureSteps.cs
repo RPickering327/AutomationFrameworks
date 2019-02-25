@@ -12,6 +12,7 @@ namespace SpecFlow.Ewart.Steps
             LoadHomePage();
         }
 
+
         [Given(@"the user navigates to the login page")]
         public void GivenTheUserNavigatesToTheLoginPage()
         {
